@@ -1,0 +1,25 @@
+.product-card {
+	width: 333px;
+	height: 432px;
+	border-radius: 22px 22px 20px 20px;
+	background: var(--Green, #016a70);
+	.product-card__img {
+		border-radius: 20px 20px 0px 0px;
+		width: 333px;
+		height: 333px;
+	}
+	.product-card__text {
+		margin: 15px 0 0 28px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.product-card__name {
+		@include font-20-600;
+		color: var(--White, #fff);
+	}
+	.product-card__prise {
+		@include font-16-400;
+		color: var(--White, #fff);
+	}
+}
